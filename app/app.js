@@ -1,6 +1,6 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+var React 		= require('react');
+var ReactDOM 	= require('react-dom');
 
-ReactDOM.render(<h1>Teste</h1>, document.getElementById('app'));
+var Github 		= require('./components/github');
 
-	
+ReactDOM.render(<Github />, document.getElementById('app'));
